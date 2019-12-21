@@ -1,0 +1,96 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+    z-index: 1000;
+}
+
+.formContainer {
+    display: block;
+    max-width: 320px;
+    margin: 30px auto 0 auto;
+    background-color: #eee;
+    box-shadow: 0px 0px 8px #555;
+}
+
+.formContainer:after,
+.formContainer:before {
+    content: " ";
+    display: table;
+}
+
+.formContainer:after {
+    clear: both;
+}
+
+form {
+    width: 100%;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+#display {
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+    min-height: 84px;
+    display: block;
+    padding: 0 15px;
+    text-align: right;
+    text-overflow: clip;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #fff;
+    background-color: #444;
+    border: 0;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-radius: 20px;
+}
+
+h4 {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+input[type="button"],
+#equal {
+    width: 80px;
+    height: 80px;
+    display: block;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: #eee;
+    border: 0;
+}
+
+input[type="button"]:hover,
+#equal:hover {
+    cursor: pointer;
+    background-color: #ddd;
+}
+
+input[type="button"]:active,
+#equal:active {
+    cursor: pointer;
+    background-color: #bbb;
+}
+
+input:focus {
+    box-shadow: 0;
+    outline: 0;
+    background-color: #eee;
+}

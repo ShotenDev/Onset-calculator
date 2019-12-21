@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        (function(obj)
+        {
+            ue.game = {};
+            ue.game.callevent = function(name, ...args)
+            {
+                if (typeof name != "string") {
+                    return;
+                }
+    
+                if (args.length == 0) {
+                    obj.callevent(name, "")
+                }
+                else {
+                    let params = []
+                    for (let i = 0; i < args.length; i++) {
+                        params[i] = args[i];
+                    }
+                    obj.callevent(name, JSON.stringify(params));
+                }
+            };
+        })(ue.game);
+        CallEvent = ue.game.callevent;
+</script>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+</head>
+<body>
+    <div class="formContainer">
+        <form name="calculator">
+            <input id="display" autocomplete="off" type="text" value="">
+            <h4>- By ShotenDev -</h4>
+
+            <input class="inputs" type="button" value="(">
+            <input class="inputs" type="button" value=")">
+            <input id="backspace" type="button" value="DEL">
+            <input id="clear" type="button" value="C">
+
+            <input class="inputs" type="button" value="7">
+            <input class="inputs" type="button" value="8">
+            <input class="inputs" type="button" value="9">
+            <input class="operators" type="button" value="/">
+
+            <input class="inputs" type="button" value="4">
+            <input class="inputs" type="button" value="5">
+            <input class="inputs" type="button" value="6">
+            <input class="operators" type="button" value="*">
+
+            <input class="inputs" type="button" value="1">
+            <input class="inputs" type="button" value="2">
+            <input class="inputs" type="button" value="3">
+            <input class="operators" type="button" value="-">
+
+            <input class="inputs" type="button" value=".">
+            <input class="inputs" type="button" value="0">
+            <input id="equal" type="button" value="=">
+            <input class="operators" type="button" value="+">
+
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
