@@ -23,4 +23,4 @@ The default key in game is H, you can change the key in "client.lua" file.
 You can also change the text in "index.html" file.
 
 ## :framed_picture: Screenshot
-![Screenshot of the calculator](https://gyazo.com/abe3129916f417873d0904ceb972c101)
+![Screenshot of the calculator](https://zupimages.net/up/19/51/5j5v.png)
