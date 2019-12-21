@@ -20,7 +20,9 @@ Don't forget to add this package in server_config.json :
 ## Usage
 
 The default key in game is H, you can change the key in "client.lua" file.  
-You can also change the text in "index.html" file.
+You can also change the text in "index.html" file.  
+It's of course possible to adapt this system to integrate it into a telephone for example.
+
 
 ## :framed_picture: Screenshot
 ![Screenshot of the calculator](https://zupimages.net/up/19/51/5j5v.png)
