@@ -25,4 +25,4 @@ It's of course possible to adapt this system to integrate it into a telephone fo
 
 
 ## :framed_picture: Screenshot
-![Screenshot of the calculator](https://zupimages.net/up/19/51/5j5v.png)
+![Screenshot of the calculator](https://www.zupimages.net/up/19/51/5j5v.png)
