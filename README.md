@@ -1,6 +1,6 @@
 # :joystick: Calculator (Onset)
 
-It's a simple calculator with a flat design that works in the game "Onset".
+It's a simple calculator with a flat design that works in the game "Onset".  
 Created by ShotenDev.
 
 ## Installation
